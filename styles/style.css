@@ -97,6 +97,17 @@ nav > ul > li > a {
 
 /* Main Css Ends */
 
+.company-header{
+  width: 50%;
+  margin: 90px;
+  
+}
+.comp{
+  display: flex;
+  justify-content: space-between
+}
+
+
 /* product css Starts */
 
 .products {
@@ -267,6 +278,17 @@ nav > ul > li > a {
     height: 20px;
     padding-top: 5px;
   }
+  .company-header{
+  width: 50%;
+  margin: 90px;
+  
+}
+.comp{
+justify-content: center;
+}
+.comp img{
+  width:50px;
+}
   .products {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -332,6 +354,18 @@ nav > ul > li > a {
     height: 30px;
     padding-top: 15px;
   }
+
+    .company-header{
+  width: 80%;
+  margin: 90px;
+  
+}
+.comp{
+justify-content: center;
+}
+.comp img{
+  width:90px;
+}
   .products {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -398,6 +432,18 @@ nav > ul > li > a {
     height: 30px;
     padding-top: 15px;
   }
+
+    .company-header{
+  width: 90%;
+  margin: 90px;
+  
+}
+.comp{
+justify-content: center;
+}
+.comp img{
+  width:90px;
+}
   .products {
     grid-template-columns: repeat(3, 1fr);
   }
